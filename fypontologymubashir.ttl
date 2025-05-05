@@ -1,0 +1,820 @@
+@prefix : <http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/> .
+
+<http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#approves
+:approves rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#coordinates
+:coordinates rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#creates
+:creates rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#dependsOn
+:dependsOn rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#hasMilestone
+:hasMilestone rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#hasNext
+:hasNext rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#hasReview
+:hasReview rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#hasStatus
+:hasStatus rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#hasTask
+:hasTask rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#includes
+:includes rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#isAuthoredBy
+:isAuthoredBy rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#isBasedOn
+:isBasedOn rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#isPartOf
+:isPartOf rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#monitors
+:monitors rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#precedesMilestone
+:precedesMilestone rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#reviews
+:reviews rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#submits
+:submits rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#supervises
+:supervises rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#uses
+:uses rdf:type owl:ObjectProperty ;
+      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Characteristics:_Functional
+:Characteristics:_Functional rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf :coordinates ,
+                                                :hasStatus ,
+                                                :isBasedOn ,
+                                                :supervises .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Characteristics:_InverseFunctional
+:Characteristics:_InverseFunctional rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf :isPartOf .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Characteristics:_Transitive
+:Characteristics:_Transitive rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf :dependsOn ,
+                                                :precedesMilestone .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Characteristics:_Asymmetric,_Irreflexive
+<http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Characteristics:_Asymmetric,_Irreflexive> rdf:type owl:ObjectProperty ;
+                                                                                                                   rdfs:subPropertyOf :hasNext .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Coordinator
+:Domain:_Coordinator rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf :coordinates ,
+                                        :monitors .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Document
+:Domain:_Document rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :isAuthoredBy ,
+                                     :isPartOf .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_EndUser
+:Domain:_EndUser rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :uses .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_FinalYearProject
+:Domain:_FinalYearProject rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf :hasMilestone ,
+                                             :hasReview ,
+                                             :hasStatus ,
+                                             :hasTask ,
+                                             :includes ,
+                                             :isBasedOn .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Milestone
+:Domain:_Milestone rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :precedesMilestone .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Person
+:Domain:_Person rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :creates ,
+                                   :submits .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Status
+:Domain:_Status rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasNext .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Supervisor
+:Domain:_Supervisor rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf :approves ,
+                                       :reviews ,
+                                       :supervises .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Task
+:Domain:_Task rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :dependsOn .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_Document
+:Range:_Document rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :approves ,
+                                    :creates ,
+                                    :includes ,
+                                    :submits .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_FinalYearProject
+:Range:_FinalYearProject rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf :coordinates ,
+                                            :isPartOf ,
+                                            :supervises ,
+                                            :uses .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_Milestone
+:Range:_Milestone rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :hasMilestone ,
+                                     :monitors ,
+                                     :precedesMilestone .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_Person
+:Range:_Person rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :isAuthoredBy .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_Proposal
+:Range:_Proposal rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :isBasedOn .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_Review
+:Range:_Review rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :hasReview ,
+                                  :reviews .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_Status
+:Range:_Status rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :hasNext ,
+                                  :hasStatus .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_Task
+:Range:_Task rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :dependsOn ,
+                                :hasTask .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#SubPropertyChain:_creates_o_isPartOf
+:SubPropertyChain:_creates_o_isPartOf rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf :submits .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#SubPropertyChain:_supervises_o_includes
+:SubPropertyChain:_supervises_o_includes rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf :approves .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#documentCreationDate
+:documentCreationDate rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#documentID
+:documentID rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#documentLastModified
+:documentLastModified rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#documentStatus
+:documentStatus rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#documentTitle
+:documentTitle rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#documentVersion
+:documentVersion rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#milestoneCompletionDate
+:milestoneCompletionDate rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#milestoneDescription
+:milestoneDescription rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#milestoneDueDate
+:milestoneDueDate rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#milestoneID
+:milestoneID rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#personDepartment
+:personDepartment rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#personEmail
+:personEmail rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#personID
+:personID rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#personName
+:personName rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#projectDescription
+:projectDescription rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#projectDomain
+:projectDomain rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#projectEndDate
+:projectEndDate rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#projectID
+:projectID rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#projectStartDate
+:projectStartDate rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#projectTitle
+:projectTitle rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#reviewComments
+:reviewComments rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#reviewDate
+:reviewDate rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#reviewID
+:reviewID rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#reviewRating
+:reviewRating rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#taskAssignedDate
+:taskAssignedDate rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#taskCompletionStatus
+:taskCompletionStatus rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#taskDescription
+:taskDescription rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#taskDueDate
+:taskDueDate rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#taskID
+:taskID rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Characteristics:_Functional
+:Characteristics:_Functional rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf :documentCreationDate ,
+                                                :documentID ,
+                                                :documentLastModified ,
+                                                :documentStatus ,
+                                                :documentTitle ,
+                                                :documentVersion ,
+                                                :milestoneCompletionDate ,
+                                                :milestoneDescription ,
+                                                :milestoneDueDate ,
+                                                :milestoneID ,
+                                                :personDepartment ,
+                                                :personEmail ,
+                                                :personID ,
+                                                :personName ,
+                                                :projectDescription ,
+                                                :projectEndDate ,
+                                                :projectID ,
+                                                :projectStartDate ,
+                                                :projectTitle ,
+                                                :reviewDate ,
+                                                :reviewID ,
+                                                :reviewRating ,
+                                                :taskAssignedDate ,
+                                                :taskCompletionStatus ,
+                                                :taskDescription ,
+                                                :taskDueDate ,
+                                                :taskID .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Document
+:Domain:_Document rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf :documentCreationDate ,
+                                     :documentID ,
+                                     :documentLastModified ,
+                                     :documentStatus ,
+                                     :documentTitle ,
+                                     :documentVersion .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Milestone
+:Domain:_Milestone rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf :milestoneCompletionDate ,
+                                      :milestoneDescription ,
+                                      :milestoneDueDate ,
+                                      :milestoneID .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Person
+:Domain:_Person rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :personDepartment ,
+                                   :personEmail ,
+                                   :personID ,
+                                   :personName .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Project
+:Domain:_Project rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :projectDescription ,
+                                    :projectDomain ,
+                                    :projectEndDate ,
+                                    :projectID ,
+                                    :projectStartDate ,
+                                    :projectTitle .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Review
+:Domain:_Review rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :reviewComments ,
+                                   :reviewDate ,
+                                   :reviewID ,
+                                   :reviewRating .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Domain:_Task
+:Domain:_Task rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :taskAssignedDate ,
+                                 :taskCompletionStatus ,
+                                 :taskDescription ,
+                                 :taskDueDate ,
+                                 :taskID .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_xsd:dateTime
+<http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_xsd:dateTime> rdf:type owl:DatatypeProperty ;
+                                                                                              rdfs:subPropertyOf :documentCreationDate ,
+                                                                                                                 :documentLastModified ,
+                                                                                                                 :milestoneCompletionDate ,
+                                                                                                                 :milestoneDueDate ,
+                                                                                                                 :projectEndDate ,
+                                                                                                                 :projectStartDate ,
+                                                                                                                 :reviewDate ,
+                                                                                                                 :taskAssignedDate ,
+                                                                                                                 :taskDueDate .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_xsd:float
+<http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_xsd:float> rdf:type owl:DatatypeProperty ;
+                                                                                           rdfs:subPropertyOf :taskCompletionStatus .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_xsd:integer
+<http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_xsd:integer> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:subPropertyOf :reviewRating .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_xsd:string
+<http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Range:_xsd:string> rdf:type owl:DatatypeProperty ;
+                                                                                            rdfs:subPropertyOf :documentID ,
+                                                                                                               :documentStatus ,
+                                                                                                               :documentTitle ,
+                                                                                                               :documentVersion ,
+                                                                                                               :milestoneDescription ,
+                                                                                                               :milestoneID ,
+                                                                                                               :personDepartment ,
+                                                                                                               :personEmail ,
+                                                                                                               :personID ,
+                                                                                                               :personName ,
+                                                                                                               :projectDescription ,
+                                                                                                               :projectDomain ,
+                                                                                                               :projectID ,
+                                                                                                               :projectTitle ,
+                                                                                                               :reviewComments ,
+                                                                                                               :reviewID ,
+                                                                                                               :taskDescription ,
+                                                                                                               :taskID .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#ActivityDiagram
+:ActivityDiagram rdf:type owl:Class ;
+                 rdfs:subClassOf :DesignDocument .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#ClassDiagram
+:ClassDiagram rdf:type owl:Class ;
+              rdfs:subClassOf :DesignDocument .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#CollaborationDiagram
+:CollaborationDiagram rdf:type owl:Class ;
+                      rdfs:subClassOf :DesignDocument .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Completed
+:Completed rdf:type owl:Class ;
+           rdfs:subClassOf :Status .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Coordinator
+:Coordinator rdf:type owl:Class ;
+             rdfs:subClassOf :Person .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#DataFlowDiagram
+:DataFlowDiagram rdf:type owl:Class ;
+                 rdfs:subClassOf :DesignDocument .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#DesignDocument
+:DesignDocument rdf:type owl:Class ;
+                rdfs:subClassOf :Document .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#DesignReview
+:DesignReview rdf:type owl:Class ;
+              rdfs:subClassOf :Review .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#DesignSubmission
+:DesignSubmission rdf:type owl:Class ;
+                  rdfs:subClassOf :Milestone .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Document
+:Document rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Documentation
+:Documentation rdf:type owl:Class ;
+               rdfs:subClassOf :Task .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#EndUser
+:EndUser rdf:type owl:Class ;
+         rdfs:subClassOf :Person .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#EntityRelationshipDiagram
+:EntityRelationshipDiagram rdf:type owl:Class ;
+                           rdfs:subClassOf :DesignDocument .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#FinalReview
+:FinalReview rdf:type owl:Class ;
+             rdfs:subClassOf :Review .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#FinalSubmission
+:FinalSubmission rdf:type owl:Class ;
+                 rdfs:subClassOf :Milestone .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#FinalYearProject
+:FinalYearProject rdf:type owl:Class ;
+                  rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Implementation
+:Implementation rdf:type owl:Class ;
+                rdfs:subClassOf :Task .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#InProgress
+:InProgress rdf:type owl:Class ;
+            rdfs:subClassOf :Status .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Milestone
+:Milestone rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#ObjectDiagram
+:ObjectDiagram rdf:type owl:Class ;
+               rdfs:subClassOf :DesignDocument .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Pending
+:Pending rdf:type owl:Class ;
+         rdfs:subClassOf :Status .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Person
+:Person rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Presentation
+:Presentation rdf:type owl:Class ;
+              rdfs:subClassOf :Task .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Project
+:Project rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Proposal
+:Proposal rdf:type owl:Class ;
+          rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#ProposalDocument
+:ProposalDocument rdf:type owl:Class ;
+                  rdfs:subClassOf :Document .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#ProposalReview
+:ProposalReview rdf:type owl:Class ;
+                rdfs:subClassOf :Review .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#ProposalSubmission
+:ProposalSubmission rdf:type owl:Class ;
+                    rdfs:subClassOf :Milestone .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Rejected
+:Rejected rdf:type owl:Class ;
+          rdfs:subClassOf :Status .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Review
+:Review rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#SRS
+:SRS rdf:type owl:Class ;
+     rdfs:subClassOf :Document .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#SRSReview
+:SRSReview rdf:type owl:Class ;
+           rdfs:subClassOf :Review .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#SRSSubmission
+:SRSSubmission rdf:type owl:Class ;
+               rdfs:subClassOf :Milestone .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#SequenceDiagram
+:SequenceDiagram rdf:type owl:Class ;
+                 rdfs:subClassOf :DesignDocument .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Status
+:Status rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Supervisor
+:Supervisor rdf:type owl:Class ;
+            rdfs:subClassOf :Person .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Task
+:Task rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#TaskTesting
+:TaskTesting rdf:type owl:Class ;
+             rdfs:subClassOf :Task .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#Testing
+:Testing rdf:type owl:Class ;
+         rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#TestingPhase
+:TestingPhase rdf:type owl:Class ;
+              rdfs:subClassOf :Milestone .
+
+
+###  http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17#TestingTemplate
+:TestingTemplate rdf:type owl:Class ;
+                 rdfs:subClassOf :Document .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :ActivityDiagram
+                :ClassDiagram
+                :CollaborationDiagram
+                :DataFlowDiagram
+                :EntityRelationshipDiagram
+                :ObjectDiagram
+                :SequenceDiagram
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Completed
+                :InProgress
+                :Pending
+                :Rejected
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Coordinator
+                :EndUser
+                :Supervisor
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :DesignDocument
+                :ProposalDocument
+                :SRS
+                :TestingTemplate
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :DesignReview
+                :FinalReview
+                :ProposalReview
+                :SRSReview
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :DesignSubmission
+                :FinalSubmission
+                :ProposalSubmission
+                :SRSSubmission
+                :TestingPhase
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Document
+                :Milestone
+                :Person
+                :Project
+                :Review
+                :Status
+                :Task
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Documentation
+                :Implementation
+                :Presentation
+                :TaskTesting
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :FinalYearProject
+                :Proposal
+                :Testing
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
