@@ -1,0 +1,2214 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/"
+     xml:base="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:general="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/approves -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/approves"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/coordinates -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/coordinates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/creates -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/creates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/dependsOn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/dependsOn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentCreationDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentCreationDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentLastModified -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentLastModified"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentStatus -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentStatus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentTitle -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentTitle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/documentVersion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/hasMilestone -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/hasMilestone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/hasNext -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/hasNext"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/hasReview -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/hasReview"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/hasStatus -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/hasStatus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/hasTask -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/hasTask"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/includes -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/includes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/isAuthoredBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/isAuthoredBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/isBasedOn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/isBasedOn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/isPartOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/isPartOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestoneCompletionDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestoneCompletionDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestoneDescription -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestoneDescription"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestoneDueDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestoneDueDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestoneID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestoneID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/monitors -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/monitors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/personDepartment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/personDepartment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/personEmail -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/personEmail"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/personID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/personID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/personName -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/personName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/precedesMilestone -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/precedesMilestone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectDescription -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectDescription"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectDomain -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectDomain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectEndDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectEndDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectStartDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectStartDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectTitle -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/projectTitle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/reviewComments -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/reviewComments"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/reviewDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/reviewDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/reviewID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/reviewID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/reviewRating -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/reviewRating"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/reviews -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/reviews"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/submits -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/submits"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/supervises -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/supervises"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/taskAssignedDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/taskAssignedDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/taskCompletionStatus -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/taskCompletionStatus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/taskDescription -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/taskDescription"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/taskDueDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/taskDueDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/taskID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/taskID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/uses -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/uses"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#Document -->
+
+    <rdfs:Datatype rdf:about="http://www.university.edu/ontologies/fyp#Document"/>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#Milestone -->
+
+    <rdfs:Datatype rdf:about="http://www.university.edu/ontologies/fyp#Milestone"/>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#Project -->
+
+    <rdfs:Datatype rdf:about="http://www.university.edu/ontologies/fyp#Project"/>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#Review -->
+
+    <rdfs:Datatype rdf:about="http://www.university.edu/ontologies/fyp#Review"/>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#Student -->
+
+    <rdfs:Datatype rdf:about="http://www.university.edu/ontologies/fyp#Student"/>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#Task -->
+
+    <rdfs:Datatype rdf:about="http://www.university.edu/ontologies/fyp#Task"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#approves -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#approves">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#supervises"/>
+            <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#includes"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#coordinates -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#coordinates">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#creates -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#creates">
+        <owl:inverseOf rdf:resource="http://www.university.edu/ontologies/fyp#isAuthoredBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#dependsOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#dependsOn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#hasMilestone -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#hasMilestone"/>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#hasNext -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#hasNext">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:comment>Indicates the next status in a workflow.</rdfs:comment>
+        <rdfs:label>Has Next</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#hasReview -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#hasReview"/>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#hasStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#hasStatus">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:comment>Indicates the current status of a project, document, or task.</rdfs:comment>
+        <rdfs:label>Has Status</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#hasTask -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#hasTask"/>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#includes">
+        <owl:inverseOf rdf:resource="http://www.university.edu/ontologies/fyp#isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#isAuthoredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#isAuthoredBy"/>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#isBasedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#isBasedOn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#isPartOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#monitors -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#monitors"/>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#precedesMilestone -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#precedesMilestone">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#reviews -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#reviews"/>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#submits -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#submits">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#creates"/>
+            <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#isPartOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#supervises -->
+
+    <owl:ObjectProperty rdf:about="http://www.university.edu/ontologies/fyp#supervises">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#approves -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#approves">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Document"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#assignedDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#assignedDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>Date when a task was assigned.</rdfs:comment>
+        <rdfs:label>Assigned Date</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/startTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#comments -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#comments">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Feedback comments provided in a review.</rdfs:comment>
+        <rdfs:label>Comments</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/reviewBody"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#completionDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#completionDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>Actual date when a milestone was completed.</rdfs:comment>
+        <rdfs:label>Completion Date</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/endTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#coordinates -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#coordinates">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Project"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#creates -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#creates">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Document"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#creationDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#creationDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>Date when the document was first created.</rdfs:comment>
+        <rdfs:label>Creation Date</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/dateCreated"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#dependsOn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#dependsOn">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Task"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#dept -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#dept">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Academic department the person belongs to.</rdfs:comment>
+        <rdfs:label>Department</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/department"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#description">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Detailed description of a project, milestone, or task.</rdfs:comment>
+        <rdfs:label>Description</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/description"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#domain -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#domain">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Academic or technical domain of the project (e.g., AI, Web Development).</rdfs:comment>
+        <rdfs:label>Domain</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/about"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#dueDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#dueDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>Deadline for completing a milestone or task.</rdfs:comment>
+        <rdfs:label>Due Date</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/endDate"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#email">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Email address of a person.</rdfs:comment>
+        <rdfs:label>Email</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/email"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#endDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#endDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>The date when the project is completed or due to be completed.</rdfs:comment>
+        <rdfs:label>End Date</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/endDate"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#hasMilestone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#hasMilestone">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Milestone"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#hasReview -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#hasReview">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Review"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#hasTask -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#hasTask">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Task"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#id">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Unique identifier for any entity in the system.</rdfs:comment>
+        <rdfs:label>ID</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/identifier"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#includes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#includes">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Document"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#isAuthoredBy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#isAuthoredBy">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Student"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#isBasedOn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#isBasedOn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Document"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#isPartOf -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#isPartOf">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Project"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#lastModified -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#lastModified">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>Date when the document was last modified.</rdfs:comment>
+        <rdfs:label>Last Modified</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/dateModified"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#monitors -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#monitors">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Milestone"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#name">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Full name of a person.</rdfs:comment>
+        <rdfs:label>Name</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#precedesMilestone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#precedesMilestone">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Milestone"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#progress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#progress">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Percentage of task completion (0.0 to 1.0).</rdfs:comment>
+        <rdfs:label>Progress</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/percentComplete"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#rating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#rating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Numerical rating given in a review (typically 1-5).</rdfs:comment>
+        <rdfs:label>Rating</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/ratingValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#reviewDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#reviewDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>Date when a review was conducted.</rdfs:comment>
+        <rdfs:label>Review Date</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/datePublished"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#reviews -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#reviews">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Review"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#startDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#startDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>The date when the project begins.</rdfs:comment>
+        <rdfs:label>Start Date</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/startDate"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#submits -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#submits">
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Document"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#supervises -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#supervises">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.university.edu/ontologies/fyp#Project"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#title">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Title of a project or document.</rdfs:comment>
+        <rdfs:label>Title</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.university.edu/ontologies/fyp#version -->
+
+    <owl:DatatypeProperty rdf:about="http://www.university.edu/ontologies/fyp#version">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Version number of a document.</rdfs:comment>
+        <rdfs:label>Version</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/version"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ActivityDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ActivityDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Diagram"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ClassDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ClassDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Diagram"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#CollaborationDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#CollaborationDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Diagram"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Completed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Completed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#CompletedStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#CompletedStatus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Coordinator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Coordinator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#DataFlowDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#DataFlowDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Diagram"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#DesignReview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#DesignReview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#DesignSubmission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#DesignSubmission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Diagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Diagram"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Document"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#EndUser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#EndUser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#EntityRelationshipDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#EntityRelationshipDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Diagram"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#FinalReview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#FinalReview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#FinalSubmission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#FinalSubmission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#FinalYearProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#FinalYearProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Implementation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Implementation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#InProgress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#InProgress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#InProgressStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#InProgressStatus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ObjectDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ObjectDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Diagram"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Pending -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Pending">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#PendingStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#PendingStatus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Project">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Proposal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Proposal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ProposalReview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ProposalReview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Proposal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ProposalSubmission"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ProposalSubmission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ProposalSubmission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Proposal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Rejected -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Rejected">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#RejectedStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#RejectedStatus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SRS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SRS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SRSReview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SRSReview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SRSSubmission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SRSSubmission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SequenceDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SequenceDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Diagram"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Status"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Supervisor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Supervisor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Task"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#TaskTesting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#TaskTesting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#TestingPhase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#TestingPhase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#TestingTemplate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#TestingTemplate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/coordinator_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/coordinator_1">
+        <coordinates rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_1"/>
+        <coordinates rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_2"/>
+        <monitors rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_design_1"/>
+        <monitors rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_proposal_1"/>
+        <monitors rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_srs_1"/>
+        <personDepartment>Computer Science</personDepartment>
+        <personEmail>james.taylor@university.edu</personEmail>
+        <personID>C001</personID>
+        <personName>Prof. James Taylor</personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/coordinator_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/coordinator_2">
+        <coordinates rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_3"/>
+        <monitors rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_proposal_2"/>
+        <personDepartment>Information Technology</personDepartment>
+        <personEmail>lisa.brown@university.edu</personEmail>
+        <personID>C002</personID>
+        <personName>Prof. Lisa Brown</personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_1">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-05T00:00:00</documentCreationDate>
+        <documentID>DOC001</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T00:00:00</documentLastModified>
+        <documentStatus>Approved</documentStatus>
+        <documentTitle>General Project Documentation</documentTitle>
+        <documentVersion>1.0</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_2">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-15T00:00:00</documentCreationDate>
+        <documentID>DOC002</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-05T00:00:00</documentLastModified>
+        <documentStatus>Published</documentStatus>
+        <documentTitle>Project Guidelines</documentTitle>
+        <documentVersion>2.1</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/coordinator_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_activity_diagram_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_activity_diagram_1">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-10T00:00:00</documentCreationDate>
+        <documentID>ACT_DIAG001</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-15T00:00:00</documentLastModified>
+        <documentStatus>Approved</documentStatus>
+        <documentTitle>Activity Diagram for ML Image Processing</documentTitle>
+        <documentVersion>1.1</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_class_diagram_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_class_diagram_1">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T00:00:00</documentCreationDate>
+        <documentID>CLASS_DIAG001</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-25T00:00:00</documentLastModified>
+        <documentStatus>Approved</documentStatus>
+        <documentTitle>Class Diagram for ML System</documentTitle>
+        <documentVersion>1.0</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_collaboration_diagram_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_collaboration_diagram_1">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-10T00:00:00</documentCreationDate>
+        <documentID>COLLAB_DIAG001</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-12T00:00:00</documentLastModified>
+        <documentStatus>Draft</documentStatus>
+        <documentTitle>Collaboration Diagram for System Components</documentTitle>
+        <documentVersion>0.9</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_data_flow_diagram_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_data_flow_diagram_1">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-20T00:00:00</documentCreationDate>
+        <documentID>DFD001</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-25T00:00:00</documentLastModified>
+        <documentStatus>Approved</documentStatus>
+        <documentTitle>Data Flow Diagram for Image Processing Pipeline</documentTitle>
+        <documentVersion>1.0</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_er_diagram_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_er_diagram_1">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-01T00:00:00</documentCreationDate>
+        <documentID>ERD001</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-05T00:00:00</documentLastModified>
+        <documentStatus>Approved</documentStatus>
+        <documentTitle>ER Diagram for Medical Images Database</documentTitle>
+        <documentVersion>1.1</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_object_diagram_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_object_diagram_1">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-15T00:00:00</documentCreationDate>
+        <documentID>OBJ_DIAG001</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-17T00:00:00</documentLastModified>
+        <documentStatus>Draft</documentStatus>
+        <documentTitle>Object Diagram for Runtime Instance</documentTitle>
+        <documentVersion>0.8</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_proposal_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_proposal_1">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-12T00:00:00</documentCreationDate>
+        <documentID>PROP_DOC001</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-14T00:00:00</documentLastModified>
+        <documentStatus>Approved</documentStatus>
+        <documentTitle>ML Medical Image Analysis Proposal</documentTitle>
+        <documentVersion>1.0</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_proposal_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_proposal_2">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-12T00:00:00</documentCreationDate>
+        <documentID>PROP_DOC002</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-14T00:00:00</documentLastModified>
+        <documentStatus>Pending Approval</documentStatus>
+        <documentTitle>Cybersecurity Framework Proposal</documentTitle>
+        <documentVersion>1.0</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_2"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_sequence_diagram_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_sequence_diagram_1">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-01T00:00:00</documentCreationDate>
+        <documentID>SEQ_DIAG001</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-05T00:00:00</documentLastModified>
+        <documentStatus>Under Review</documentStatus>
+        <documentTitle>Sequence Diagram for Image Analysis Flow</documentTitle>
+        <documentVersion>1.0</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_srs_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_srs_1">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-15T00:00:00</documentCreationDate>
+        <documentID>SRS001</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-28T00:00:00</documentLastModified>
+        <documentStatus>Approved</documentStatus>
+        <documentTitle>SRS for ML Medical Image Analysis</documentTitle>
+        <documentVersion>1.2</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_srs_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_srs_2">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-15T00:00:00</documentCreationDate>
+        <documentID>SRS002</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T00:00:00</documentLastModified>
+        <documentStatus>Draft</documentStatus>
+        <documentTitle>SRS for Cybersecurity Framework</documentTitle>
+        <documentVersion>1.0</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_2"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_testing_template_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_testing_template_1">
+        <documentCreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-01T00:00:00</documentCreationDate>
+        <documentID>TEST_TEMP001</documentID>
+        <documentLastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-05T00:00:00</documentLastModified>
+        <documentStatus>Approved</documentStatus>
+        <documentTitle>Testing Template for ML Model Validation</documentTitle>
+        <documentVersion>1.0</documentVersion>
+        <isAuthoredBy rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1"/>
+        <isPartOf rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/enduser_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/enduser_1">
+        <personDepartment>Finance</personDepartment>
+        <personEmail>michael.davis@company.com</personEmail>
+        <personID>EU001</personID>
+        <personName>Michael Davis</personName>
+        <uses rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/enduser_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/enduser_2">
+        <personDepartment>HR</personDepartment>
+        <personEmail>rebecca.white@company.com</personEmail>
+        <personID>EU002</personID>
+        <personName>Rebecca White</personName>
+        <uses rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_design_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_design_1">
+        <milestoneCompletionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-25T00:00:00</milestoneCompletionDate>
+        <milestoneDescription>Submission of ML image analysis design documents</milestoneDescription>
+        <milestoneDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-01T00:00:00</milestoneDueDate>
+        <milestoneID>MS_DESIGN001</milestoneID>
+        <precedesMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_testing_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_design_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_design_2">
+        <milestoneCompletionDate>null</milestoneCompletionDate>
+        <milestoneDescription>Submission of cybersecurity framework design documents</milestoneDescription>
+        <milestoneDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-31T00:00:00</milestoneDueDate>
+        <milestoneID>MS_DESIGN002</milestoneID>
+        <precedesMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_testing_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_final_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_final_1">
+        <milestoneCompletionDate>null</milestoneCompletionDate>
+        <milestoneDescription>Final submission of ML image analysis project</milestoneDescription>
+        <milestoneDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-30T00:00:00</milestoneDueDate>
+        <milestoneID>MS_FINAL001</milestoneID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_final_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_final_2">
+        <milestoneCompletionDate>null</milestoneCompletionDate>
+        <milestoneDescription>Final submission of cybersecurity framework project</milestoneDescription>
+        <milestoneDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-15T00:00:00</milestoneDueDate>
+        <milestoneID>MS_FINAL002</milestoneID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_proposal_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_proposal_1">
+        <milestoneCompletionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-14T00:00:00</milestoneCompletionDate>
+        <milestoneDescription>Submission of ML image analysis project proposal</milestoneDescription>
+        <milestoneDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-15T00:00:00</milestoneDueDate>
+        <milestoneID>MS_PROP001</milestoneID>
+        <precedesMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_srs_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_proposal_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_proposal_2">
+        <milestoneCompletionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-14T00:00:00</milestoneCompletionDate>
+        <milestoneDescription>Submission of cybersecurity framework proposal</milestoneDescription>
+        <milestoneDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-15T00:00:00</milestoneDueDate>
+        <milestoneID>MS_PROP002</milestoneID>
+        <precedesMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_srs_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_srs_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_srs_1">
+        <milestoneCompletionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-28T00:00:00</milestoneCompletionDate>
+        <milestoneDescription>Submission of ML image analysis SRS document</milestoneDescription>
+        <milestoneDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-01T00:00:00</milestoneDueDate>
+        <milestoneID>MS_SRS001</milestoneID>
+        <precedesMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_design_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_srs_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_srs_2">
+        <milestoneCompletionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T00:00:00</milestoneCompletionDate>
+        <milestoneDescription>Submission of cybersecurity framework SRS document</milestoneDescription>
+        <milestoneDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-31T00:00:00</milestoneDueDate>
+        <milestoneID>MS_SRS002</milestoneID>
+        <precedesMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_design_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_testing_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_testing_1">
+        <milestoneCompletionDate>null</milestoneCompletionDate>
+        <milestoneDescription>Completion of ML image analysis testing phase</milestoneDescription>
+        <milestoneDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-15T00:00:00</milestoneDueDate>
+        <milestoneID>MS_TEST001</milestoneID>
+        <precedesMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_final_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_testing_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_testing_2">
+        <milestoneCompletionDate>null</milestoneCompletionDate>
+        <milestoneDescription>Completion of cybersecurity framework testing phase</milestoneDescription>
+        <milestoneDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-15T00:00:00</milestoneDueDate>
+        <milestoneID>MS_TEST002</milestoneID>
+        <precedesMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_final_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_1">
+        <creates rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_proposal_1"/>
+        <personDepartment>Computer Science</personDepartment>
+        <personEmail>john.smith@university.edu</personEmail>
+        <personID>P001</personID>
+        <personName>John Smith</personName>
+        <submits rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_proposal_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/person_2">
+        <creates rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_proposal_2"/>
+        <personDepartment>Computer Science</personDepartment>
+        <personEmail>emily.johnson@university.edu</personEmail>
+        <personID>P002</personID>
+        <personName>Emily Johnson</personName>
+        <submits rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_proposal_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_1">
+        <projectDescription>A system that uses machine learning to monitor and predict student performance</projectDescription>
+        <projectDomain>Artificial Intelligence</projectDomain>
+        <projectEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-31T00:00:00</projectEndDate>
+        <projectID>PRJ001</projectID>
+        <projectStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00</projectStartDate>
+        <projectTitle>AI-Based Student Performance Tracking System</projectTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_2">
+        <projectDescription>A system for verifying academic documents using blockchain technology</projectDescription>
+        <projectDomain>Blockchain</projectDomain>
+        <projectEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-31T00:00:00</projectEndDate>
+        <projectID>PRJ002</projectID>
+        <projectStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-01T00:00:00</projectStartDate>
+        <projectTitle>Blockchain-Based Document Verification</projectTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_3">
+        <projectDescription>A system that integrates IoT devices across campus for better resource management</projectDescription>
+        <projectDomain>Internet of Things</projectDomain>
+        <projectEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-28T00:00:00</projectEndDate>
+        <projectID>PRJ003</projectID>
+        <projectStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-01T00:00:00</projectStartDate>
+        <projectTitle>IoT-Based Smart Campus System</projectTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_1">
+        <hasMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_design_1"/>
+        <hasMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_final_1"/>
+        <hasMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_proposal_1"/>
+        <hasMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_srs_1"/>
+        <hasReview rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_proposal_1"/>
+        <hasReview rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_srs_1"/>
+        <hasStatus rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_in_progress_1"/>
+        <hasTask rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_documentation_1"/>
+        <hasTask rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_implementation_1"/>
+        <hasTask rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_presentation_1"/>
+        <hasTask rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_testing_1"/>
+        <includes rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_class_diagram_1"/>
+        <includes rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_proposal_1"/>
+        <includes rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_srs_1"/>
+        <isBasedOn rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/proposal_1"/>
+        <projectDescription>A project that uses ML techniques to analyze medical images for diagnostics</projectDescription>
+        <projectDomain>Machine Learning, Healthcare</projectDomain>
+        <projectEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-30T00:00:00</projectEndDate>
+        <projectID>FYP001</projectID>
+        <projectStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-15T00:00:00</projectStartDate>
+        <projectTitle>Machine Learning for Medical Image Analysis</projectTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_fyp_2">
+        <hasMilestone rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/milestone_proposal_2"/>
+        <hasStatus rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_pending_1"/>
+        <hasTask rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_documentation_2"/>
+        <hasTask rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_implementation_2"/>
+        <isBasedOn rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/proposal_2"/>
+        <projectDescription>A framework for assessing and mitigating cybersecurity risks in organizations</projectDescription>
+        <projectDomain>Cybersecurity</projectDomain>
+        <projectEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-15T00:00:00</projectEndDate>
+        <projectID>FYP002</projectID>
+        <projectStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-15T00:00:00</projectStartDate>
+        <projectTitle>Cybersecurity Risk Assessment Framework</projectTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/proposal_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/proposal_1">
+        <projectDescription>A proposal for using ML techniques in medical image analysis</projectDescription>
+        <projectDomain>Machine Learning, Healthcare</projectDomain>
+        <projectEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-15T00:00:00</projectEndDate>
+        <projectID>PROP001</projectID>
+        <projectStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T00:00:00</projectStartDate>
+        <projectTitle>Machine Learning for Medical Image Analysis - Proposal</projectTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/proposal_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/proposal_2">
+        <projectDescription>A proposal for developing a cybersecurity risk assessment framework</projectDescription>
+        <projectDomain>Cybersecurity</projectDomain>
+        <projectEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-15T00:00:00</projectEndDate>
+        <projectID>PROP002</projectID>
+        <projectStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-10T00:00:00</projectStartDate>
+        <projectTitle>Cybersecurity Risk Assessment Framework - Proposal</projectTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_design_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_design_1">
+        <reviewComments>Well-structured design documents. Database schema is particularly well-thought-out.</reviewComments>
+        <reviewDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-05T00:00:00</reviewDate>
+        <reviewID>REV_DESIGN001</reviewID>
+        <reviewRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</reviewRating>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_design_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_design_2">
+        <reviewComments>Design is adequate but lacks detail in some critical areas. Reconsider the architecture for better scalability.</reviewComments>
+        <reviewDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-05T00:00:00</reviewDate>
+        <reviewID>REV_DESIGN002</reviewID>
+        <reviewRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</reviewRating>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_final_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_final_1">
+        <reviewComments>Excellent project overall. Implementation is robust and the validation results are impressive.</reviewComments>
+        <reviewDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-05T00:00:00</reviewDate>
+        <reviewID>REV_FINAL001</reviewID>
+        <reviewRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</reviewRating>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_final_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_final_2">
+        <reviewComments>Good project with solid implementation. User interface could be more intuitive.</reviewComments>
+        <reviewDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-20T00:00:00</reviewDate>
+        <reviewID>REV_FINAL002</reviewID>
+        <reviewRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</reviewRating>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_proposal_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_proposal_1">
+        <reviewComments>Strong proposal with clear objectives. Methodology section needs more detail.</reviewComments>
+        <reviewDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-16T00:00:00</reviewDate>
+        <reviewID>REV_PROP001</reviewID>
+        <reviewRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</reviewRating>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_proposal_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_proposal_2">
+        <reviewComments>Good proposal but scope may be too broad. Consider narrowing focus.</reviewComments>
+        <reviewDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-16T00:00:00</reviewDate>
+        <reviewID>REV_PROP002</reviewID>
+        <reviewRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</reviewRating>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_srs_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_srs_1">
+        <reviewComments>Comprehensive SRS with well-defined requirements. Non-functional requirements section is excellent.</reviewComments>
+        <reviewDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-05T00:00:00</reviewDate>
+        <reviewID>REV_SRS001</reviewID>
+        <reviewRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</reviewRating>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_srs_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_srs_2">
+        <reviewComments>Good SRS overall. Need more specific acceptance criteria for some requirements.</reviewComments>
+        <reviewDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-01T00:00:00</reviewDate>
+        <reviewID>REV_SRS002</reviewID>
+        <reviewRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</reviewRating>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_completed_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_completed_1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_completed_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_completed_2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_in_progress_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_in_progress_1">
+        <hasNext rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_completed_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_in_progress_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_in_progress_2">
+        <hasNext rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_completed_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_pending_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_pending_1">
+        <hasNext rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_in_progress_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_pending_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_pending_2">
+        <hasNext rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_in_progress_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_rejected_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_rejected_1">
+        <hasNext rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_pending_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_rejected_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_rejected_2">
+        <hasNext rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/status_pending_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/supervisor_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/supervisor_1">
+        <approves rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_proposal_1"/>
+        <personDepartment>Computer Science</personDepartment>
+        <personEmail>robert.wilson@university.edu</personEmail>
+        <personID>S001</personID>
+        <personName>Dr. Robert Wilson</personName>
+        <reviews rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_proposal_1"/>
+        <supervises rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/supervisor_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/supervisor_2">
+        <approves rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/document_proposal_2"/>
+        <personDepartment>Information Technology</personDepartment>
+        <personEmail>sarah.chen@university.edu</personEmail>
+        <personID>S002</personID>
+        <personName>Dr. Sarah Chen</personName>
+        <reviews rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/review_proposal_2"/>
+        <supervises rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/project_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_documentation_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_documentation_1">
+        <taskAssignedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-01T00:00:00</taskAssignedDate>
+        <taskCompletionStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</taskCompletionStatus>
+        <taskDescription>Create documentation for ML image analysis system</taskDescription>
+        <taskDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-31T00:00:00</taskDueDate>
+        <taskID>TASK_DOC001</taskID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_documentation_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_documentation_2">
+        <taskAssignedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-01T00:00:00</taskAssignedDate>
+        <taskCompletionStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</taskCompletionStatus>
+        <taskDescription>Create documentation for cybersecurity framework</taskDescription>
+        <taskDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-30T00:00:00</taskDueDate>
+        <taskID>TASK_DOC002</taskID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_implementation_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_implementation_1">
+        <dependsOn rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_documentation_1"/>
+        <taskAssignedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-01T00:00:00</taskAssignedDate>
+        <taskCompletionStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60.0</taskCompletionStatus>
+        <taskDescription>Implement core ML algorithms for image analysis</taskDescription>
+        <taskDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-31T00:00:00</taskDueDate>
+        <taskID>TASK_IMP001</taskID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_implementation_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_implementation_2">
+        <dependsOn rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_documentation_2"/>
+        <taskAssignedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-01T00:00:00</taskAssignedDate>
+        <taskCompletionStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</taskCompletionStatus>
+        <taskDescription>Implement cybersecurity risk assessment framework</taskDescription>
+        <taskDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-31T00:00:00</taskDueDate>
+        <taskID>TASK_IMP002</taskID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_presentation_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_presentation_1">
+        <dependsOn rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_testing_1"/>
+        <taskAssignedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-01T00:00:00</taskAssignedDate>
+        <taskCompletionStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</taskCompletionStatus>
+        <taskDescription>Prepare final presentation for ML image analysis project</taskDescription>
+        <taskDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-15T00:00:00</taskDueDate>
+        <taskID>TASK_PRES001</taskID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_presentation_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_presentation_2">
+        <dependsOn rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_testing_2"/>
+        <taskAssignedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-15T00:00:00</taskAssignedDate>
+        <taskCompletionStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</taskCompletionStatus>
+        <taskDescription>Prepare final presentation for cybersecurity framework</taskDescription>
+        <taskDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-30T00:00:00</taskDueDate>
+        <taskID>TASK_PRES002</taskID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_testing_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_testing_1">
+        <dependsOn rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_implementation_1"/>
+        <taskAssignedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-01T00:00:00</taskAssignedDate>
+        <taskCompletionStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</taskCompletionStatus>
+        <taskDescription>Test ML algorithms with real medical images</taskDescription>
+        <taskDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-30T00:00:00</taskDueDate>
+        <taskID>TASK_TEST001</taskID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_testing_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_testing_2">
+        <dependsOn rdf:resource="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/task_implementation_2"/>
+        <taskAssignedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-01T00:00:00</taskAssignedDate>
+        <taskCompletionStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</taskCompletionStatus>
+        <taskDescription>Test cybersecurity framework with sample data</taskDescription>
+        <taskDueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-31T00:00:00</taskDueDate>
+        <taskID>TASK_TEST002</taskID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/testing_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/testing_1">
+        <projectDescription>Testing procedures for the ML medical image analysis project</projectDescription>
+        <projectDomain>Machine Learning, Healthcare</projectDomain>
+        <projectEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-15T00:00:00</projectEndDate>
+        <projectID>TEST001</projectID>
+        <projectStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-01T00:00:00</projectStartDate>
+        <projectTitle>Testing Phase for ML Medical Image Analysis</projectTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/testing_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/testing_2">
+        <projectDescription>Testing procedures for the cybersecurity risk assessment framework</projectDescription>
+        <projectDomain>Cybersecurity</projectDomain>
+        <projectEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-15T00:00:00</projectEndDate>
+        <projectID>TEST002</projectID>
+        <projectStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-01T00:00:00</projectStartDate>
+        <projectTitle>Testing Phase for Cybersecurity Framework</projectTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#approves">
+        <rdfs:comment>Indicates that a supervisor approves a document.</rdfs:comment>
+        <rdfs:label>Approves</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#coordinates">
+        <rdfs:comment>Indicates that a coordinator is responsible for coordinating a project.</rdfs:comment>
+        <rdfs:comment>Relationship between a coordinator and project(s).</rdfs:comment>
+        <rdfs:label>Coordinates</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#creates">
+        <rdfs:comment>Indicates who created a document.</rdfs:comment>
+        <rdfs:label>Creates</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/creator"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#dependsOn">
+        <rdfs:comment>Indicates that a task depends on another task to be completed first.</rdfs:comment>
+        <rdfs:comment>Indicates that one task depends on the completion of another.</rdfs:comment>
+        <rdfs:label>Depends On</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#hasMilestone">
+        <rdfs:comment>Links a project to its milestones.</rdfs:comment>
+        <rdfs:label>Has Milestone</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/hasPart"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#hasReview">
+        <rdfs:comment>Indicates that a document has a review.</rdfs:comment>
+        <rdfs:comment>Links a document or project to reviews it has received.</rdfs:comment>
+        <rdfs:label>Has Review</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#hasTask">
+        <rdfs:comment>Links a milestone to its component tasks.</rdfs:comment>
+        <rdfs:comment>Links a project to its constituent tasks.</rdfs:comment>
+        <rdfs:label>Has Task</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/hasPart"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#includes">
+        <rdfs:comment>Indicates that a project includes a document.</rdfs:comment>
+        <rdfs:comment>Indicates that a project includes specific documents.</rdfs:comment>
+        <rdfs:label>Includes</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/hasPart"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#isAuthoredBy">
+        <rdfs:comment>Indicates the author of a document.</rdfs:comment>
+        <rdfs:label>Is Authored By</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/author"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#isBasedOn">
+        <rdfs:comment>Indicates that one document is based on another.</rdfs:comment>
+        <rdfs:label>Is Based On</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/isBasedOn"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#isPartOf">
+        <rdfs:comment>Indicates that a document is part of a project.</rdfs:comment>
+        <rdfs:label>Is Part Of</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/isPartOf"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#monitors">
+        <rdfs:comment>Indicates that a coordinator monitors milestones.</rdfs:comment>
+        <rdfs:label>Monitors</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#precedesMilestone">
+        <rdfs:comment>Indicates that one milestone comes before another.</rdfs:comment>
+        <rdfs:comment>Indicates that one milestone must be completed before another can begin.</rdfs:comment>
+        <rdfs:label>Precedes Milestone</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#reviews">
+        <rdfs:comment>Indicates that a supervisor or examiner has created a review.</rdfs:comment>
+        <rdfs:comment>Indicates that a supervisor reviews a document.</rdfs:comment>
+        <rdfs:label>Reviews</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/reviews"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#submits">
+        <rdfs:comment>Indicates that a student submits a document for a project.</rdfs:comment>
+        <rdfs:comment>Indicates that a student submitted a document.</rdfs:comment>
+        <rdfs:label>Submits</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.university.edu/ontologies/fyp#supervises">
+        <rdfs:comment>Indicates that a supervisor oversees a project.</rdfs:comment>
+        <rdfs:comment>Relationship between a supervisor and a project.</rdfs:comment>
+        <rdfs:label>Supervises</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://schema.org/mentorOf"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ActivityDiagram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ClassDiagram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#CollaborationDiagram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#DataFlowDiagram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#EntityRelationshipDiagram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#ObjectDiagram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SequenceDiagram"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Completed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#FinalYearProject"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Implementation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#InProgress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Pending"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Rejected"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#CompletedStatus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#InProgressStatus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#PendingStatus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#RejectedStatus"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Coordinator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#EndUser"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Supervisor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#DesignReview"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#DesignSubmission"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#FinalReview"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#FinalSubmission"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SRS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SRSReview"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#SRSSubmission"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Diagram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Document"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Person"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Proposal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Status"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Task"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#TaskTesting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#Testing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#TestingPhase"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mahar/ontologies/2025/4/untitled-ontology-17/#TestingTemplate"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
